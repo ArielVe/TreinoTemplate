@@ -12,6 +12,12 @@ if (isset($_POST['btn_send'])) {
 			
 			include('templates/admin_tpl.php');
 			
+		} else {
+			
+			$msg = 'Usuário ou Senha Inválidos';
+			
+			include('templates/login_tpl.php');
+			
 		}
 	
 	} else {
